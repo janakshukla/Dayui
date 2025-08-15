@@ -1,5 +1,5 @@
 const Day1 = () => {
-    return (<>hello</>  );
-}
- 
+  return <>hello</>;
+};
+
 export default Day1;
