@@ -5,7 +5,7 @@ import Hero from "../assets/day2/hero.svg";
 const Day2 = () => {
   return (
     <div
-      className="bg-cover container fixed object-fill min-h-screen w-full"
+      className="bg-cover container fixed object-fill min-h-screen min-w-full"
       style={{ backgroundImage: `url(${bgimage})` }}
     >
       <Navbar />
