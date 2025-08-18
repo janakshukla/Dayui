@@ -1,8 +1,8 @@
 const Day1 = () => {
   return (
     <div className="min-h-screen w-full bg-Day1-primary flex justify-center p-4 items-center ">
-      <div className=" h-4/5 w-5/6  animation  ">
-        <div className="h-1/5">
+      <div className=" h-4/5 w-5/6    ">
+        <div className="h-1/5 animation ">
           <h1 className="font-semibold text-5xl text-shadow-lg tracking-tighter font-geist text-center">
             Pricing plans
           </h1>
@@ -10,7 +10,7 @@ const Day1 = () => {
             Choose the right plan for your needs.
           </p>
         </div>
-        <div className="w-full h-full flex mt-12  flex-wrap gap-8 justify-center">
+        <div className="w-full h-full flex mt-12 animation  flex-wrap gap-8 justify-center">
           <div className="sm:w-1/3 lg:w-1/4 min-h-full  shadow-2xl border rounded-4xl border-white/10 bg-white  ">
             <div className="h-1/2 w-full shadow-2xl rounded-4xl border-b  border-b-white/10 ">
               <div className="h-1/2  m-4 bg-[#EFEFEF] rounded-4xl flex flex-col justify-between p-4  ">
