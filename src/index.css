@@ -2,25 +2,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-@theme  {
+@theme inline {
     --color-Day1-primary: #F5F5F5;
     --font-geist: 'Geist', sans-serif;
     --font-inter: 'Inter', sans-serif;
- 
+
 }
 
 
-.animation{
-    animation: popup 0.5s   ;
+.animation {
+    animation: popup 0.5s;
 }
+
 
 @keyframes popup {
-    from{
-        
+    from {
+
         transform: scale(0);
-    
+
     }
-    to{
-      transform: scale(1);
+
+    to {
+        transform: scale(1);
     }
 }
