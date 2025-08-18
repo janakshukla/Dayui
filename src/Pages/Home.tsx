@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Day1 from "../assets/image.png"
+import Day2 from "../assets/day2/day2.png"
 const Home = () => {
   const days = [
     {
@@ -9,6 +10,13 @@ const Home = () => {
       image: Day1,
       link: "/day1",
     },
+    {
+      day: 2,
+      title: "Day 2",
+      description: "Landing page",
+      image: Day2,
+      link: "/day2",
+    }
   ];
 
   return (
