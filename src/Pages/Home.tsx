@@ -1,17 +1,42 @@
+import { Link } from "react-router-dom";
+import Day1 from "../assets/image.png"
 const Home = () => {
+  const days = [
+    {
+      day: 1,
+      title: "Day 1",
+      description: "Pricing card",
+      image: Day1,
+      link: "/day1",
+    },
+  ];
+
   return (
     <div className="min-h-screen w-full bg-orange-50 text-center p-4 ">
-     <div className="h-1/5" >
-     <h1 className="font-semibold text-5xl text-shadow-lg tracking-tighter font-geist text-center">
-        Welcome to Dayui.
-      </h1>
-      <p className=" font-geist font-medium  text-shadow-lg -tracking-normal mt-4 text-center">
-        Here i am recreating every thing what @heysatya_ will design in his 30 days challenge.this home ui is not final i will be creating its design on day 31.
-      </p>
-     </div>
-     <div>
-    
-     </div>
+      <div className="h-1/5">
+        <h1 className="font-semibold text-5xl text-shadow-lg tracking-tighter font-geist text-center">
+          Welcome to Dayui.
+        </h1>
+        <p className=" font-geist font-medium  text-shadow-lg -tracking-normal mt-4 text-center">
+          Here i am recreating every thing what @heysatya_ will design in his 30
+          days challenge.this home ui is not final i will be creating its design
+          on day 31.
+        </p>
+      </div>
+      <div>
+       
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
+          {days.map((day) => (
+            <Link to={day.link} key={day.day}>
+              <div className="bg-white hover:bg-gradient-to-r  from-[#C145FF]/20 to-[#1FDDF2]/20 p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                <h3 className="text-xl font-semibold">{day.title}</h3>
+                <p className="text-gray-600">{day.description}</p>
+                <img className="mt-2" src={day.image} alt={day.title} />
+              </div>
+            </Link>
+          ))}
+          </div>
+      </div>
     </div>
   );
 };
