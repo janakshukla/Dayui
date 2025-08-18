@@ -25,7 +25,9 @@ const Day1 = () => {
               <h3 className="font-inter font-medium m-4 px-4 text-sm ">
                 Perfect for small teams
               </h3>
-              <button className="font-inter font-medium mx-2 w-[90%]  rounded-4xl bg-[#1A1A1A] text-white py-2 drop-shadow-2xl shadow-inner shadow-white backdrop-blur-md text-nowrap text-sm hover:bg-black ">
+              <button onClick={()=>{
+               window.location.href = "https://github.com/janakshukla"
+              }} className="font-inter font-medium mx-2 w-[90%]  rounded-4xl bg-[#1A1A1A] text-white py-2 drop-shadow-2xl shadow-inner shadow-white backdrop-blur-md text-nowrap text-sm hover:bg-black ">
                 Start Hiring
               </button>
             </div>
@@ -55,7 +57,9 @@ const Day1 = () => {
               <h3 className="font-inter font-medium m-4 px-4 text-sm ">
                 Perfect for growing teams
               </h3>
-              <button className="font-inter font-medium mx-2 w-[90%]  rounded-4xl bg-[#1A1A1A] text-white py-2 drop-shadow-2xl shadow-inner shadow-white backdrop-blur-md text-nowrap text-sm hover:bg-black ">
+              <button onClick={()=>{
+                window.location.href = "https://github.com/janakshukla"
+              }} className="font-inter font-medium mx-2 w-[90%]  rounded-4xl bg-[#1A1A1A] text-white py-2 drop-shadow-2xl shadow-inner shadow-white backdrop-blur-md text-nowrap text-sm hover:bg-black ">
                 Start Hiring
               </button>
             </div>
@@ -87,7 +91,9 @@ const Day1 = () => {
               <h3 className="font-inter font-medium m-4 px-4 text-sm ">
                 For large organizations
               </h3>
-              <button className="font-inter font-medium mx-2 w-[90%]  rounded-4xl bg-[#1A1A1A] text-white py-2 drop-shadow-2xl shadow-inner shadow-white backdrop-blur-md text-nowrap text-sm hover:bg-black ">
+              <button onClick={()=>{
+                window.location.href = "https://github.com/janakshukla"
+              }} className="font-inter font-medium mx-2 w-[90%]  rounded-4xl bg-[#1A1A1A] text-white py-2 drop-shadow-2xl shadow-inner shadow-white backdrop-blur-md text-nowrap text-sm hover:bg-black ">
                 Contact Us
               </button>
             </div>
