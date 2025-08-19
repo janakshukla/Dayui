@@ -13,7 +13,7 @@ const ContentCard = () => {
             </div>
             
              </div>
-        <div className='flex mt-4 w-full gap-1 justify-between px-4' >
+        <div className='flex mt-8 sm:mt-4 w-full gap-1 justify-between px-4' >
             <Button icon={PlusCircle} value='Hire Me' color='bg-[#FFFFFF]/20' />
             <Button icon={Copy} value='Copy Email' color='bg-[#FFFFFF]/10' />
              </div>

@@ -15,7 +15,7 @@ const Button = ({
       onClick={() => {
         window.location.href = "https://github.com/janakshukla";
       }}
-      className={`${color} hover:scale-105 text-white scale-75 sm:scale-100 px-12 sm:px-16 gap-1 items-center py-1 sm:py-2  flex rounded-xl shadow-[inset_0px_1px_2px_0_#FFFFFF]/17 drop-shadow-[inset_0px_12px_22px_0_#000000]/45`}
+      className={`${color} hover:scale-105 text-white scale-75 sm:scale-100 px-12 text-nowrap sm:px-16 gap-1 items-center py-2  flex rounded-xl shadow-[inset_0px_1px_2px_0_#FFFFFF]/17 drop-shadow-[inset_0px_12px_22px_0_#000000]/45`}
     >
       <Icon size={16} />
       {value}
