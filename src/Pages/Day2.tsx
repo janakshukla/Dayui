@@ -23,7 +23,7 @@ const Day2 = () => {
           Let Customers Edit Orders Themselves: Save your customers <br /> time
           and yourself from support email headaches
         </p>
-        <div className="flex justify-between mt-4 items-center w-72 ">
+        <div className="flex justify-between mt-4 items-center md:w-72 w-64 ">
           <button className="py-1 px-2 text-sm font-medium font-geist bg-white cursor-pointer hover:scale-110 flex gap-0.5 rounded-lg  text-[#FF5E49] drop-shadow-sm drop-shadow-[#9D4034]/20 shadow-[inset_0_-3.57px_11.78px_0_#FFFFFF,inset_0_0.89px_0.89px_0px_#FFFFFF] ">
             Get Demo
           </button>
