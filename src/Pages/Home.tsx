@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Day1 from "../assets/image.png"
 import Day2 from "../assets/day2/day2.png"
+import Day3 from "../assets/day3/day3.png";
 const Home = () => {
   const days = [
     {
@@ -16,6 +17,13 @@ const Home = () => {
       description: "Landing page",
       image: Day2,
       link: "/day2",
+    },
+    {
+      day: 3,
+      title: "Day 3",
+      description: "Intro card",
+      image: Day3,
+      link: "/day3",
     }
   ];
 

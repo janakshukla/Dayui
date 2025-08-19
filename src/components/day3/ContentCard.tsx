@@ -1,5 +1,6 @@
 import Button from './Button'
 import Avatar from "../../assets/day3/Avatar.png"
+import { Copy, PlusCircle } from 'lucide-react'
 
 const ContentCard = () => {
   return (
@@ -13,8 +14,8 @@ const ContentCard = () => {
             
              </div>
         <div className='flex mt-4 w-full justify-between px-4' >
-            <Button value='Hire Me' color='bg-[#FFFFFF]/20' />
-            <Button value='Copy Email' color='bg-[#FFFFFF]/10' />
+            <Button icon={PlusCircle} value='Hire Me' color='bg-[#FFFFFF]/20' />
+            <Button icon={Copy} value='Copy Email' color='bg-[#FFFFFF]/10' />
              </div>
     </div>
   )
