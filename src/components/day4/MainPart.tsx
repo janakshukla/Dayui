@@ -1,0 +1,28 @@
+import Logo from "../../assets/day4/Logo.png";
+import Input from "./Input";
+
+const MainPart = () => {
+  return (
+    <div className='h-full w-5/6 bg-white rounded-4xl ' >
+        <div className=" flex justify-center items-center h-11/12"  >
+           <div className="font-inter" >
+           <img src={Logo} alt="LOGO" />
+            <h1 className="font-semibold text-2xl tracking-tight leading-relaxed text-black/82 " >How can I help today?</h1>
+            <p className=" text-xs  leading-loose text-black/60 " >Try out new features: Deep Search, Think, Edit Image</p>
+            <Input/>
+            <div className="font-inter font-medium mt-4 flex gap-4 items-center justify-center-safe text-xs text-black/82 leading-[11px]" >
+                <div className="border border-[#EBEBEB] p-2 rounded-lg drop-shadow-sm drop-shadow-[#0A0D14]/3  " >Deep Search</div>
+                <div className="border border-[#EBEBEB] p-2 rounded-lg drop-shadow-sm drop-shadow-[#0A0D14]/3  " >Think</div>
+                <div className="border border-[#EBEBEB] p-2 rounded-lg drop-shadow-sm drop-shadow-[#0A0D14]/3  " >Edit Image</div>
+            </div>
+           </div>
+        </div>
+        <div className="bg-red-500 h-1/12" >
+
+        </div>
+        
+    </div>
+  )
+}
+
+export default MainPart
