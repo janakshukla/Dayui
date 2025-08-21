@@ -2,6 +2,7 @@ import { useState } from "react";
 import Logo from "../../assets/day4/GrokLogo.png";
 import open from "../../assets/day4/Open.svg";
 import SideBarChat from "./SideBarChat";
+import SideBarFooter from "./SideBarFooter";
 
 const SideBar = () => {
   const [isopen, setisopen] = useState(true);
@@ -27,13 +28,13 @@ const SideBar = () => {
           onClick={() => {
             setisopen(!isopen);
           }}
-          className="cursor-e-resize p-1 rounded-md  hover:bg-white brightness-110 "
+          className="cursor-e-resize p-1 rounded-md  hover:bg-white hover:scale-110 hover:brightness-110 "
           src={open}
           alt="open"
         />
       </div>
       <SideBarChat isopen={isopen} />
-      <SideBarChat isopen={isopen} />
+      <SideBarFooter isopen={isopen} />
     </div>
   );
 };
