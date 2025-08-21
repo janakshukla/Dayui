@@ -28,7 +28,7 @@ const SideBar = () => {
           onClick={() => {
             setisopen(!isopen);
           }}
-          className="cursor-e-resize p-1 rounded-md  hover:bg-white hover:scale-110 hover:brightness-110 "
+          className="cursor-e-resize p-1 rounded-md  hover:bg-gray-300 hover:scale-110  "
           src={open}
           alt="open"
         />
