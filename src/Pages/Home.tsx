@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Day1 from "../assets/image.png"
 import Day2 from "../assets/day2/day2.png"
 import Day3 from "../assets/day3/day3.png";
+import Day4 from "../assets/day4/day4.png";
 const Home = () => {
   const days = [
     {
@@ -24,6 +25,13 @@ const Home = () => {
       description: "Intro card",
       image: Day3,
       link: "/day3",
+    },
+    {
+      day: 4,
+      title: "Day 4",
+      description: "Grok dashboard",
+      image: Day4,
+      link: "/day4",
     }
   ];
 

@@ -1,6 +1,6 @@
 import Logo from "../../assets/day4/Logo.png";
 import Input from "./Input";
-import  {LucideScanSearch,Lightbulb,PenIcon} from "lucide-react";
+import  {LucideScanSearch,Lightbulb,PenIcon,Clock,Lock,Users} from "lucide-react";
 
 const MainPart = () => {
   return (
@@ -18,7 +18,22 @@ const MainPart = () => {
             </div>
            </div>
         </div>
-        <div className="bg-red-500 h-1/12" >
+        <div className="flex justify-center gap-10 items-center-safe h-1/12" >
+        <div className="font-inter text-xs flex justify-center items-center gap-2 text-black/82 ">
+        <Clock size={12} />
+        Available 24/7
+
+        </div>
+        <div className="font-inter text-xs flex justify-center items-center gap-2 text-black/82 ">
+        <Lock size={12} />
+        Securely Encrypted
+
+        </div>
+        <div className="font-inter text-xs flex justify-center items-center gap-2 text-black/82 ">
+        <Users size={12} />
+        For the people
+
+        </div>
 
         </div>
         
