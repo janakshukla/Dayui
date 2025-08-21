@@ -9,8 +9,8 @@ const SideBar = () => {
   return (
     <div
       className={`bg-[#f7f7f7]  h-full ${
-        isopen ? "w-1/6" : "w-14"
-      } transition-all duration-300 ease-in-out`}
+        isopen ? "w-1/6" : "w-14" 
+      }  transition-all duration-300 ease-in-out`}
     >
       <div
         className={`h-1/10 flex ${

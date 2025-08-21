@@ -15,7 +15,7 @@ const SideBarChat = ({ isopen }: { isopen: boolean }) => {
 
   return (
     <div
-      className={`h-8/10 flex flex-col justify-between font-inter w-full ${
+      className={`h-8/10 flex pt-6 flex-col justify-between font-inter w-full ${
         isopen ? " " : "opacity-0"
       } `}
     >
