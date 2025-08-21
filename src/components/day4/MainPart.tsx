@@ -12,8 +12,8 @@ const MainPart = () => {
             <p className=" text-xs  leading-loose text-black/60 " >Try out new features: Deep Search, Think, Edit Image</p>
             <Input/>
             <div className="font-inter font-medium mt-4 flex gap-4 items-center justify-center-safe text-xs text-black/82 leading-[11px]" >
-                <div className="border flex gap-2 border-[#EBEBEB] p-2 rounded-lg drop-shadow-sm drop-shadow-[#0A0D14]/3  " ><LucideScanSearch size={12} color="#51BB7A" /> Think</div>
-                <div className="border flex gap-2  border-[#EBEBEB] p-2 rounded-lg drop-shadow-sm drop-shadow-[#0A0D14]/3  " > <Lightbulb size={12} color="#4662EC" /> Deep Search</div>
+                <div className="border flex gap-2 border-[#EBEBEB] p-2 rounded-lg drop-shadow-sm drop-shadow-[#0A0D14]/3  " ><LucideScanSearch size={12} color="#51BB7A" /> Deep Search</div>
+                <div className="border flex gap-2  border-[#EBEBEB] p-2 rounded-lg drop-shadow-sm drop-shadow-[#0A0D14]/3  " > <Lightbulb size={12} color="#4662EC" /> Think</div>
                 <div className="border flex gap-2  border-[#EBEBEB] p-2 rounded-lg drop-shadow-sm drop-shadow-[#0A0D14]/3  " ><PenIcon size={12} color="#F49F23" />Edit Image</div>
             </div>
            </div>
