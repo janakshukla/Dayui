@@ -15,7 +15,7 @@ const SideBar = () => {
       <div
         className={`h-1/10 flex ${
           isopen ? "justify-between" : "justify-center"
-        } items-center px-4`}
+        } items-center px-2`}
       >
         <img
           className={` ${

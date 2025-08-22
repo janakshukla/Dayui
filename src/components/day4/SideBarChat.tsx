@@ -15,14 +15,14 @@ const SideBarChat = ({ isopen }: { isopen: boolean }) => {
 
   return (
     <div
-      className={`h-8/10 flex pt-4 flex-col justify-between font-inter w-full ${
+      className={`min-h-8/10 flex pt-4 flex-col justify-between font-inter w-full ${
         isopen ? " " : "opacity-0"
       } `}
     >
       <div>
         {/* conversation */}
         <div>
-          <h3 className="flex px-8 items-center gap-3 text-xs text-[#A3A3A3] uppercase py-2 tracking-wide">
+          <h3 className="flex px-2 xl:px-10 items-center gap-3 text-xs text-[#A3A3A3] uppercase py-2 tracking-wide">
             Conversations{" "}
           </h3>
           <div className="flex flex-col gap-2 px-2 xl:px-10 ">
@@ -38,7 +38,7 @@ const SideBarChat = ({ isopen }: { isopen: boolean }) => {
         </div>
         {/* spaces */}
         <div>
-          <h3 className="flex px-8 items-center gap-3 text-xs text-[#A3A3A3] uppercase py-2 tracking-wide">
+          <h3 className="flex px-2 xl:px-10 items-center gap-3 text-xs text-[#A3A3A3] uppercase py-2 tracking-wide">
             spaces{" "}
           </h3>
           <div className="flex flex-col gap-2 px-2 xl:px-10 ">
