@@ -11,8 +11,8 @@ import {
 
 const MainPart = () => {
   return (
-    <div className="h-full w-full  bg-white rounded-4xl ">
-      <div className=" flex justify-center items-center h-11/12">
+    <div className="h-full w-full   bg-white rounded-4xl ">
+      <div className=" flex justify-center scale-75 md:scale-100 items-center h-11/12">
         <div className="font-inter">
           <img src={Logo} alt="LOGO" />
           <h1 className="font-semibold text-2xl tracking-tight leading-relaxed text-black/82 ">
@@ -37,7 +37,7 @@ const MainPart = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center gap-10 items-center-safe h-1/12">
+      <div className="flex scale-75 md:scale-100 justify-center gap-10 items-center-safe h-1/12">
         <div className="font-inter text-xs flex justify-center items-center gap-2 text-black/82 ">
           <Clock size={12} />
           Available 24/7
