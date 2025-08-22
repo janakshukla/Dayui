@@ -12,7 +12,7 @@ const Input = () => {
         value={inputval}
         onChange={(e) => setinputval(e.target.value)}
         ref={inputref}
-        className=" h-full w-full font-inter text-[11px] text-[#171717] p-4 rounded-2xl bg-[#F7F7F7]/90 "
+        className=" h-full w-full font-inter focus:outline-[#171717]/60 text-[11px] text-[#171717] p-4 rounded-2xl bg-[#F7F7F7]/90 "
         type="text"
       />
       <div
@@ -39,10 +39,10 @@ const Input = () => {
           </p>
         </div>
         <div className="flex justify-between items-baseline">
-          <Paperclip size={18} className=" text-[#5C5C5C] -rotate-[40deg]" />
+          <Paperclip size={18} className=" text-[#5C5C5C] -rotate-[43deg]" />
           <div className="flex gap-2">
             <img src={vector} alt="vector" />
-            <div className=" bg-black w-fit rounded-md ">
+            <div className=" bg-black hover:bg-black/80 hover:scale-105 w-fit rounded-md ">
               {" "}
               <SendHorizontal className=" text-white p-1.5 -rotate-45" />
             </div>
