@@ -4,7 +4,7 @@ import  {LucideScanSearch,Lightbulb,PenIcon,Clock,Lock,Users} from "lucide-react
 
 const MainPart = () => {
   return (
-    <div className='h-full min-w-5/6 bg-white rounded-4xl ' >
+    <div className='h-full w-full  bg-white rounded-4xl ' >
         <div className=" flex justify-center items-center h-11/12"  >
            <div className="font-inter" >
            <img src={Logo} alt="LOGO" />

@@ -5,7 +5,7 @@ const SideBarFooter = ({ isopen }: { isopen: boolean }) => {
   return (
     <div
       className={`h-1/10 flex justify-center items-center hover:bg-gray-300  font-inter w-full ${
-        isopen ? "gap-6 " : ""
+        isopen ? "xl:gap-6  " : ""
       } `}
     >
       <img className="scale-50" src={Avatar} alt="Avatar" />

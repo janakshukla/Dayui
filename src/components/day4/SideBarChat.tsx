@@ -15,7 +15,7 @@ const SideBarChat = ({ isopen }: { isopen: boolean }) => {
 
   return (
     <div
-      className={`h-8/10 flex pt-6 flex-col justify-between font-inter w-full ${
+      className={`h-8/10 flex pt-4 flex-col justify-between font-inter w-full ${
         isopen ? " " : "opacity-0"
       } `}
     >
@@ -25,11 +25,11 @@ const SideBarChat = ({ isopen }: { isopen: boolean }) => {
           <h3 className="flex px-8 items-center gap-3 text-xs text-[#A3A3A3] uppercase py-2 tracking-wide">
             Conversations{" "}
           </h3>
-          <div className="flex flex-col gap-2 px-10">
+          <div className="flex flex-col gap-2 px-2 xl:px-10 ">
             {chatList.map((chat) => (
               <div
                 key={chat.id}
-                className="flex items-center gap-3 text-xs text-[#5C5C5C] py-2 hover:bg-gray-200 cursor-pointer"
+                className="flex items-center   text-xs text-[#5C5C5C] py-2 hover:bg-gray-200 cursor-pointer"
               >
                 <span>{chat.name}</span>
               </div>
@@ -41,19 +41,19 @@ const SideBarChat = ({ isopen }: { isopen: boolean }) => {
           <h3 className="flex px-8 items-center gap-3 text-xs text-[#A3A3A3] uppercase py-2 tracking-wide">
             spaces{" "}
           </h3>
-          <div className="flex flex-col gap-2 px-10">
+          <div className="flex flex-col gap-2 px-2 xl:px-10 ">
             {spaces.map((chat) => (
               <div
                 key={chat.id}
-                className="flex items-center gap-3 text-xs text-[#5C5C5C] py-2 hover:bg-gray-200 cursor-pointer"
+                className="flex items-center  gap-2 text-xs text-[#5C5C5C] py-2 hover:bg-gray-200 cursor-pointer"
               >
                 <div
-                  className="w-2 h-2 rounded-full"
+                  className="w-2 h-2 rounded-full  "
                   style={{ backgroundColor: chat.dotcolor }}
                 ></div>
-                <span>{chat.name}</span>
-                <span className="text-[10px] text-gray-500 ml-auto">
-                  ⌘ {chat.id}
+                <span className="" >{chat.name}</span>
+                <span className="text-[0.65rem]  text-gray-500 ml-auto">
+                  {chat.id}
                 </span>
               </div>
             ))}
@@ -62,11 +62,11 @@ const SideBarChat = ({ isopen }: { isopen: boolean }) => {
       </div>
       {/* options */}
       <div>
-        <h3 className="flex px-8 items-center  gap-3 text-xs text-[#5C5C5C] py-2  tracking-tight">
+        <h3 className="flex xl:px-8 px-4 items-center  gap-3 text-xs text-[#5C5C5C] py-2  tracking-tight">
           {" "}
           <Settings size={18} /> <span>Settings{" "}</span>
         </h3>
-        <h3 className="flex px-8 items-center  gap-3 text-xs text-[#5C5C5C]  py-2 tracking-tight">
+        <h3 className="flex xl:px-8 px-4 items-center  gap-3 text-xs text-[#5C5C5C]  py-2 tracking-tight">
           <Headphones size={18} /> Support{" "}
         </h3>
       </div>
