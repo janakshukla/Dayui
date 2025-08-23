@@ -1,7 +1,7 @@
 import Logo from "../../assets/day5/Day5Logo.png";
 const Nav = () => {
   return (
-    <nav className=" text-white py-4 px-8  flex justify-between items-center">
+    <nav className=" text-white py-4 px-4 sm:px-8  flex justify-between items-center">
       <div className="flex gap-3 items-center">
         <img className="size-8" src={Logo} alt="" />
         <h1 className="font-inter text-xl bg-linear-to-r from-white to-[#999999] text-transparent bg-clip-text">
