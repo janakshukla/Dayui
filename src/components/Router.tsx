@@ -4,6 +4,7 @@ import Home from "../Pages/Home";
 import Day2 from "../Pages/Day2";
 import Day3 from "../Pages/Day3";
 import Day4 from "../Pages/Day4";
+import Day5 from "../Pages/Day5";
 
 const Router = () => {
   return <BrowserRouter>
@@ -13,6 +14,7 @@ const Router = () => {
     <Route path="/day2" element={<Day2/>}/>
     <Route path="/day3" element={<Day3/>}/>
     <Route path="/day4" element={<Day4/>}/>
+    <Route path="/day5" element={<Day5/>}/>
   </Routes>
   </BrowserRouter>;
 };
