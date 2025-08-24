@@ -7,6 +7,7 @@ import Day5 from "../assets/day5/day5.png";
 import NavBar from "../components/Home/NavBar";
 import HeroSection from "../components/Home/HeroSection";
 import bgimage from "../assets/Home/hero.png";
+import Footer from "../components/Home/Footer";
 const Home = () => {
   const days = [
     {
@@ -49,7 +50,7 @@ const Home = () => {
   return (
     <div className="min-h-screen w-full bg-orange-50 ">
       <div
-        className="bg-cover container relative object-fill min-h-screen min-w-full"
+        className="bg-cover container relative  min-h-screen min-w-full"
         style={{ backgroundImage: `url(${bgimage})` }}
       >
         <div className="absolute inset-0 bg-gray-950/50">
@@ -70,6 +71,7 @@ const Home = () => {
           ))}
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };
