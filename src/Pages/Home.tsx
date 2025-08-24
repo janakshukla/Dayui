@@ -4,6 +4,8 @@ import Day2 from "../assets/day2/day2.png"
 import Day3 from "../assets/day3/day3.png";
 import Day4 from "../assets/day4/day4.png";
 import Day5 from "../assets/day5/day5.png";
+import NavBar from "../components/Home/NavBar";
+import HeroSection from "../components/Home/HeroSection";
 const Home = () => {
   const days = [
     {
@@ -45,15 +47,11 @@ const Home = () => {
   ];
 
   return (
-    <div className="min-h-screen w-full bg-orange-50 text-center p-4 ">
-      <div className="h-1/5">
-        <h1 className="font-semibold text-5xl text-shadow-lg tracking-tighter font-geist text-center">
-          Welcome to Dayui.
-        </h1>
-        <p className=" font-geist font-medium  text-shadow-lg -tracking-normal mt-4 text-center">
-        Here I am, recreating everything that @heysatya_ will design in his 30-day challenge. This home UI is not final; I will be creating its design on Day 31.
-        </p>
-      </div>
+    <div className="min-h-screen w-full bg-orange-50 p-4 ">
+      <div className="h-screen">
+        <NavBar/>
+        <HeroSection/>
+       </div>
       <div>
        
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
