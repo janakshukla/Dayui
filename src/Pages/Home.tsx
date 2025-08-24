@@ -8,39 +8,40 @@ import NavBar from "../components/Home/NavBar";
 import HeroSection from "../components/Home/HeroSection";
 import bgimage from "../assets/Home/hero.png";
 import Footer from "../components/Home/Footer";
+import { Github } from "lucide-react";
 const Home = () => {
   const days = [
     {
       day: 1,
-      title: "Day 1",
+      title: "Day1",
       description: "Pricing card",
       image: Day1,
       link: "/day1",
     },
     {
       day: 2,
-      title: "Day 2",
+      title: "Day2",
       description: "Landing page",
       image: Day2,
       link: "/day2",
     },
     {
       day: 3,
-      title: "Day 3",
+      title: "Day3",
       description: "Intro card",
       image: Day3,
       link: "/day3",
     },
     {
       day: 4,
-      title: "Day 4",
+      title: "Day4",
       description: "Grok dashboard",
       image: Day4,
       link: "/day4",
     },
     {
       day: 5,
-      title: "Day 5",
+      title: "Day5",
       description: "Sprrrint email client",
       image: Day5,
       link: "/day5",
@@ -61,13 +62,23 @@ const Home = () => {
       <div>
         <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4 mt-4">
           {days.map((day) => (
-            <Link to={day.link} key={day.day}>
+            <div key={day.day} className="relative group">
+            <Github
+            onClick={() => {
+              window.open(`https://github.com/janakshukla/Dayui/blob/main/src/Pages/${day.title}.tsx`)
+            }
+            }
+            className="absolute top-1 right-1 hover:scale-110  "
+            
+            />
+            <Link to={day.link}>
               <div className="bg-white hover:bg-gradient-to-r  from-[#C145FF]/20 to-[#1FDDF2]/20 p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
                 <h3 className="text-xl font-semibold">{day.title}</h3>
                 <p className="text-gray-600">{day.description}</p>
                 <img className="mt-2" src={day.image} alt={day.title} />
               </div>
             </Link>
+            </div>
           ))}
         </div>
       </div>
