@@ -68,7 +68,7 @@ const Home = () => {
               window.open(`https://github.com/janakshukla/Dayui/blob/main/src/Pages/${day.title}.tsx`)
             }
             }
-            className="absolute top-1 right-1 hover:scale-110  "
+            className="absolute top-4 right-4 hover:scale-110  "
             
             />
             <Link to={day.link}>
