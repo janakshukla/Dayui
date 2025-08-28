@@ -4,7 +4,7 @@ import Day2 from "../assets/day2/day2.png";
 import Day3 from "../assets/day3/day3.png";
 import Day4 from "../assets/day4/day4.png";
 import Day5 from "../assets/day5/day5.png";
-import Day6 from "../assets/day6/Day6.png";
+import Day6 from "../assets/day6/day6.png";
 import NavBar from "../components/Home/NavBar";
 import HeroSection from "../components/Home/HeroSection";
 import bgimage from "../assets/Home/hero.png";
