@@ -32,7 +32,7 @@ const Middle = () => {
               <Sun size={18} fill="#F9BD36" />{" "}
               <span className="text-[#B2B2B2]">MORNING DOMINIC</span>{" "}
             </p>
-            <p className="text-[#B2B2B2] text-[10px] px-1 ">
+            <p className="text-[#B2B2B2] text-nowrap text-[10px] px-1 ">
               {" "}
               You have to start{" "}
               <span className="text-slate-950">

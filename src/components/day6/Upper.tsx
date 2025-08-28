@@ -4,7 +4,7 @@ import Avatar from "../../assets/day3/Avatar.png";
 const Upper = () => {
   return (
     <div className=" flex w-full gap-4  h-20 m-4  ">
-          <div className="w-3/4 flex gap-4 justify-center items-center-safe rounded-3xl bg-white">
+          <div className="w-3/4 flex  sm:gap-4 justify-center items-center-safe rounded-3xl bg-white">
             <h1 className="font-inter font-bold text-2xl tracking-tighter ">
               30
               <span className="font-medium ml-1 text-base text-[#898A8D] ">
