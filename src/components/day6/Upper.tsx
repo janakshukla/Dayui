@@ -17,7 +17,7 @@ const Upper = () => {
               className="px-6 py-3 rounded-2xl text-white backdrop-blur-2xl font-medium shadow-lg drop-shadow-2xl drop-shadow-[#939DFB40] "
               style={{
                 background:
-                  "linear-gradient(-170deg, #FFFFFF, #FCB1A7, #FEB484, #5A65FF90,#5A65FF,#5A65FF)",
+                  "linear-gradient(210.15deg, #FFFFFF 5.55%, #FCB1A7 23.44%, #FEB484 54.02%, #5A65FF 86.36%)",
               }}
             >
               Book a call
