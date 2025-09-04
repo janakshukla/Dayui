@@ -5,6 +5,7 @@ import Day3 from "../assets/day3/day3.png";
 import Day4 from "../assets/day4/day4.png";
 import Day5 from "../assets/day5/day5.png";
 import Day6 from "../assets/day6/day6.png";
+import Day7 from "../assets/day7/day7.png";
 import NavBar from "../components/Home/NavBar";
 import HeroSection from "../components/Home/HeroSection";
 import bgimage from "../assets/Home/hero.png";
@@ -53,6 +54,13 @@ const Home = () => {
       description: "Widgets screen",
       image: Day6,
       link: "/day6",
+    },
+    {
+      day: 7,
+      title: "Day7",
+      description: "Grok homepage",
+      image: Day7,
+      link: "/day7",
     },
   ];
 
