@@ -91,7 +91,7 @@ const Home = () => {
               <div className="bg-white hover:bg-gradient-to-r  from-[#C145FF]/20 to-[#1FDDF2]/20 p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
                 <h3 className="text-xl font-semibold">{day.title}</h3>
                 <p className="text-gray-600">{day.description}</p>
-                <img className="mt-2" src={day.image} alt={day.title} />
+                <img className="mt-2 md:h-48 mx-auto " src={day.image} alt={day.title} />
               </div>
             </Link>
             </div>
