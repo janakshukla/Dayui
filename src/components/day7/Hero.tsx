@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="flex flex-col justify-center gap-6 ml-6  sm:ml-20 mt-10">
         <img className="w-16   " src={Ai} alt="Ai" />
         <h1 className="text-5xl font-semibold ">
-          <span className=" font-instrument-serif font-extralight tracking-tighter ">
+          <span className=" font-instrument-serif italic font-extralight tracking-tighter ">
             Complete AI
           </span>{" "}
           <br /> Customer Support <br /> Ecosystem
