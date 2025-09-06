@@ -4,9 +4,9 @@ import { ArrowRightIcon,Circle } from "lucide-react";
 
 const Hero = () => {
   return (
-    <div className="h-full  flex justify-around items-center-safe   ">
+    <div className="h-4/6  mt-4 flex justify-around   ">
       <Card
-        className="w-1/2 h-2/3  flex p-2 flex-col items-center justify-between text-center gap-6 text-white bg-cover bg-center bg-no-repeat "
+        className="w-1/2 h-5/6  flex p-2 flex-col items-center justify-between text-center gap-6 text-white bg-cover bg-center bg-no-repeat "
         style={{
           backgroundImage: `url(${BGhero})`,
         }}
@@ -21,7 +21,7 @@ const Hero = () => {
          
         </CardHeader>
         <CardFooter>
-          <button className="border flex items-center justify-between  border-white p-2 text-white w-2/3 rounded-full hover:backdrop-blur-3xl transition-all duration-300">
+          <button className="border flex items-center justify-between  border-white p-2 text-white w-2/3 rounded-2xl hover:backdrop-blur-3xl transition-all duration-300">
             Book Demo call{" "}
             <ArrowRightIcon
               className="p-1 rounded-full bg-white "
@@ -31,7 +31,7 @@ const Hero = () => {
           </button>
         </CardFooter>
       </Card>
-      <h1 className="text-white/70 uppercase  text-6xl font-thin leading-20 tracking-tight "  >exiciting <br /> ideas await <br /> you,each <br /> coooler than <br /> the last!</h1>
+      <h1 className="text-white/70 uppercase  text-6xl font-thin leading-18 tracking-tight "  >exiciting <br /> ideas await <br /> you,each <br /> coooler than <br /> the last!</h1>
     </div>
   );
 };

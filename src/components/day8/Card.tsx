@@ -12,7 +12,7 @@ const Card = ({
   return (
     <div
       className={cn(
-        "bg-white/10 border border-white/20 rounded-3xl  transition-transform duration-300 ease-in-out",
+        "bg-white/10 border border-white/20 rounded-2xl  transition-transform duration-300 ease-in-out",
         className
 
       )}
