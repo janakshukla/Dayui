@@ -6,6 +6,7 @@ import Day4 from "../assets/day4/day4.png";
 import Day5 from "../assets/day5/day5.png";
 import Day6 from "../assets/day6/day6.png";
 import Day7 from "../assets/day7/day7.png";
+import Day8 from "../assets/day8/day8.png";
 import NavBar from "../components/Home/NavBar";
 import HeroSection from "../components/Home/HeroSection";
 import bgimage from "../assets/Home/hero.png";
@@ -61,6 +62,13 @@ const Home = () => {
       description: "Grok homepage",
       image: Day7,
       link: "/day7",
+    },
+    {
+      day: 8,
+      title: "Day8",
+      description: "portfolio inspiration ",
+      image: Day8,
+      link: "/day8",
     },
   ];
 
