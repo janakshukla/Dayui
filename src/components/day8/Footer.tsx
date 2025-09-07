@@ -1,4 +1,4 @@
-import { Circle,ArrowUpRight } from "lucide-react";
+import { Circle,ArrowUpRight, Play } from "lucide-react";
 import { Card, CardFooter, CardHeader } from "./Card";
 
 const Footer = () => {
@@ -28,6 +28,16 @@ const Footer = () => {
         </CardHeader>
         <CardFooter className="text-black/90  tracking-tighter leading-tight text-3xl  font-inter" >OUR CASE <br /> STUDIES</CardFooter>
       </Card>
+      <div className="w-1/5 h-44 flex flex-col gap-1 justify-end p-4 " >
+        <h1 className="px-4 py-1.5 w-fit uppercase font-medium font-inter border rounded-3xl  text-white/70 border-white/70 " >email marketing</h1>
+        <h1 className="px-4 py-1.5 w-fit uppercase font-medium font-inter border rounded-3xl  text-white/70 border-white/70 " >web analytics</h1>
+        <h1 className="px-4 py-1.5 w-fit uppercase font-medium font-inter border rounded-3xl  text-white/70 border-white/70 " >seo</h1>
+      </div>
+      <div className="w-1/5 h-44 flex   gap-2 p-4 mt-6 " >
+      <Play fill="black" className="size-8 rounded-full p-2 bg-white/70 text-black" />
+      <h1 className="text-xs  text-white/70 " >Let's See <br /> How We Did it. </h1>
+
+      </div>
     </div>
   );
 };
