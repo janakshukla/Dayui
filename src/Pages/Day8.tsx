@@ -5,7 +5,7 @@ import Navbar from "../components/day8/Navbar"
 
 const Day8 = () => {
   return (
-    <div className="bg-black fixed h-screen w-full " >
+    <div className="bg-black p-2  min-h-screen w-full " >
         <Navbar/>
         <Hero/>
         <Footer/>
