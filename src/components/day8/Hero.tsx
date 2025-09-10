@@ -21,7 +21,7 @@ const Hero = () => {
          
         </CardHeader>
         <CardFooter>
-          <button className="border text-nowrap flex items-center justify-between  border-white p-2 text-white w-2/3 rounded-2xl hover:backdrop-blur-3xl transition-all duration-300">
+          <button className="border text-nowrap flex items-center justify-between  border-white p-2 text-white w-2/3 rounded-sm hover:backdrop-blur-3xl transition-all duration-300">
             Book Demo call{" "}
             <ArrowRightIcon
               className="p-1 rounded-full bg-white "
