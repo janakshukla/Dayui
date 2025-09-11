@@ -66,7 +66,7 @@ const Home = () => {
     {
       day: 8,
       title: "Day8",
-      description: "portfolio inspiration ",
+      description: "Portfolio inspiration with vibrant colors. ",
       image: Day8,
       link: "/day8",
     },
